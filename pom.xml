@@ -11,20 +11,8 @@
   <description>A layer that implements the belief-desire-intention (BDI) reasoning cycle to develop BDI agents that run on top of the JADE platform.</description>
   <url>https://github.com/ingridnunes/bdi4jade</url>
   
-  <repositories>
-  	<repository> 
-    	<id>tilab</id> 
-    	<url>https://jade.tilab.com/maven/</url> 
-	</repository>
-  </repositories>
-  
   <dependencies>
-  	<dependency>  
-    	<groupId>com.tilab.jade</groupId> 
-    	<artifactId>jade</artifactId> 
-		<version>4.3.2</version>  
-	</dependency>
-	<dependency>
+ 	<dependency>
 		<groupId>org.apache.logging.log4j</groupId>
 		<artifactId>log4j-api</artifactId>
 		<version>2.14.1</version>
