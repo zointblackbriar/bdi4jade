@@ -72,7 +72,7 @@ public class BDI4JADEExamplesApp {
 		params.add("-gui");
 		params.add("-detect-main:false");
 
-		log.info("Plataform parameters: " + params);
+		log.info("Platform parameters: " + params);
 
 		this.bootProfile = new BootProfileImpl(params.toArray(new String[0]));
 

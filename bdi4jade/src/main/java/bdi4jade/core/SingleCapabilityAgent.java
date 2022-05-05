@@ -57,7 +57,7 @@ public class SingleCapabilityAgent extends AbstractBDIAgent {
 	 * @return the capability.
 	 */
 	public synchronized Capability getCapability() {
-		return capability;
+		return capability;		
 	}
 
 	/**
